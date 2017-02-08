@@ -1,108 +1,202 @@
-do-what-it-says
-spotify-this-song "I Want it That Way"
-Song Name: I Want It That Way
-Artist: Backstreet Boys
-Album Name: The Hits--Chapter One
-Preview URL: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=null
+my-tweets
+Tue Feb 07 20:57:28 +0000 2017
+tweet 25
 --------------
-Song Name: I Want It That Way
-Artist: Backstreet Boys
-Album Name: Millennium
-Preview URL: https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=null
+Tue Feb 07 20:57:20 +0000 2017
+tweet 24
 --------------
-Song Name: I Want It That Way
-Artist: Backstreet Boys
-Album Name: 90 Sweet 90s Hits!
-Preview URL: https://p.scdn.co/mp3-preview/2f96341eb8415a3efb27375db1c4d59928408c2f?cid=null
+Tue Feb 07 20:57:06 +0000 2017
+tweet 23
 --------------
-Song Name: I Want It That Way
-Artist: Backstreet Boys
-Album Name: The Essential Backstreet Boys
-Preview URL: https://p.scdn.co/mp3-preview/f9f504a705fcaaf2f24b004b629725451014ad6c?cid=null
+Tue Feb 07 20:56:58 +0000 2017
+tweet 22
 --------------
-Song Name: Bye Bye Bye / I Want It That Way (Glee Cast Version)
-Artist: Glee Cast
-Album Name: Bye Bye Bye / I Want It That Way (Glee Cast Version)
-Preview URL: https://p.scdn.co/mp3-preview/3aa63b5c98b98ae333e567813e5c720abb2914f0?cid=null
+Tue Feb 07 20:55:49 +0000 2017
+tweet 21
 --------------
-Song Name: I Want It That Way - Instrumental Version
-Artist: In The Name Of Love
-Album Name: I Want It That Way (Instrumental Version)
-Preview URL: https://p.scdn.co/mp3-preview/46a2c637536f1cbe5543de63f2c803c250b3d844?cid=null
+Tue Feb 07 20:54:57 +0000 2017
+tweet 20
 --------------
-Song Name: I Want It That Way
-Artist: Brittany Howard
-Artist: Jim James
-Album Name: I Want It That Way
-Preview URL: https://p.scdn.co/mp3-preview/46c088f198268278c8498768e50f1423459b2ed7?cid=null
+Tue Feb 07 20:53:08 +0000 2017
+tweet 19
 --------------
-Song Name: I Want It That Way
-Artist: Anthem Lights
-Album Name: Covers Part IV
-Preview URL: https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=null
+Tue Feb 07 20:52:37 +0000 2017
+tweet 18
 --------------
-Song Name: I Want It That Way
-Artist: Dynamite Boy
-Album Name: Punk Goes Pop
-Preview URL: https://p.scdn.co/mp3-preview/9d2f9eac900740ab86cd2bbb67872bf3440787db?cid=null
+Tue Feb 07 20:52:28 +0000 2017
+tweet 17
 --------------
-Song Name: I Want It That Way
-Artist: Boyce Avenue
-Album Name: New Acoustic Sessions, Vol. 3
-Preview URL: https://p.scdn.co/mp3-preview/764f1dcb8c9a9cec099cc361cb388f931bf023d3?cid=null
+Tue Feb 07 20:52:18 +0000 2017
+tweet 16
 --------------
-Song Name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
-Artist: "Weird Al" Yankovic
-Album Name: The Essential Weird Al Yankovic
-Preview URL: https://p.scdn.co/mp3-preview/5632d8e302d70afaa8f79c962aa4b2032a45b3ef?cid=null
+Tue Feb 07 20:52:11 +0000 2017
+tweet 15
 --------------
-Song Name: I Want It That Way
-Artist: Kyle Olthoff
-Artist: Destiny Jenkins
-Album Name: I Want It That Way
-Preview URL: https://p.scdn.co/mp3-preview/101776fe4fc24aac543f6b4c5aa4273ac9d2dcc4?cid=null
+Tue Feb 07 20:52:04 +0000 2017
+tweet 14
 --------------
-Song Name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
-Artist: "Weird Al" Yankovic
-Album Name: Poodle Hat
-Preview URL: https://p.scdn.co/mp3-preview/bc986c27b684adbc13837a5de25f14d4dbe0cc3c?cid=null
+Tue Feb 07 20:51:49 +0000 2017
+tweet 13
 --------------
-Song Name: I Want It That Way
-Artist: Steel Panther
-Album Name: I Want It That Way
-Preview URL: https://p.scdn.co/mp3-preview/b71df9d016478a90c09a96ce96c91a65c883f33f?cid=null
+Tue Feb 07 20:51:40 +0000 2017
+tweet 12
 --------------
-Song Name: I Want It That Way
-Artist: Landon Austin & Julia Sheer
-Album Name: I Want It That Way
-Preview URL: https://p.scdn.co/mp3-preview/e777be5446dc3df34abc2eaec241edb5a590976c?cid=null
+Tue Feb 07 20:51:31 +0000 2017
+tweet 11
 --------------
-Song Name: I Want It That Way
-Artist: Backstreet Boys
-Album Name: NKOTBSB
-Preview URL: https://p.scdn.co/mp3-preview/adf2485de3f3f375593b5307a792e8d8e6f19794?cid=null
+Tue Feb 07 20:51:02 +0000 2017
+tweet 10
 --------------
-Song Name: I Want It That Way
-Artist: Scott Bradlee's Postmodern Jukebox
-Artist: Shoshana Bean
-Album Name: Selfies on Kodachrome
-Preview URL: https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=null
+Tue Feb 07 20:50:55 +0000 2017
+tweet 9
 --------------
-Song Name: I Want It That Way
-Artist: Shoshana Bean
-Album Name: PMJ Is For Lovers: The Love Song Collection
-Artist: Scott Bradlee's Postmodern Jukebox
-Preview URL: https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=null
+Tue Feb 07 20:50:48 +0000 2017
+tweet 8
 --------------
-Song Name: I Want It That Way
-Artist: FROIDZ
-Album Name: I Want It That Way
-Preview URL: https://p.scdn.co/mp3-preview/fdf46a47cbaf363ff9379b4222a74d1ba8291b67?cid=null
+Tue Feb 07 20:50:41 +0000 2017
+tweet 7
 --------------
-Song Name: I Want It That Way - The Voice Performance
-Artist: Garrett Gardner
-Album Name: I Want It That Way (The Voice Performance)
-Preview URL: https://p.scdn.co/mp3-preview/cd4996e962aa4e12dc9665a44357f9c708c17185?cid=null
+Tue Feb 07 20:50:33 +0000 2017
+tweet 6
+--------------
+spotify-this-song The Sign
+Song Name: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) - Remix
+Artist: Ty Dolla $ign
+Artist: DJ Mustard
+Artist: Wiz Khalifa
+Artist: The Weeknd
+Album Name: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) [Remix Version]
+Preview URL: https://p.scdn.co/mp3-preview/70f126c139847335bc03c756c55b80c99892268e?cid=null
+--------------
+Song Name: Sucker For Pain (with Wiz Khalifa, Imagine Dragons, Logic & Ty Dolla $ign feat. X Ambassadors)
+Artist: Lil Wayne
+Artist: Wiz Khalifa
+Artist: Imagine Dragons
+Artist: X Ambassadors
+Artist: Logic
+Artist: Ty Dolla $ign
+Album Name: Suicide Squad: The Album
+Preview URL: https://p.scdn.co/mp3-preview/96f9689e58c4d6188cc269c0c2089036c3817a2e?cid=null
+--------------
+Song Name: Impatient
+Artist: Jeremih
+Artist: Ty Dolla $ign
+Album Name: Late Nights: The Album
+Preview URL: https://p.scdn.co/mp3-preview/0de6a01bbbd0c9a2d9cd85febcc8ea099773932e?cid=null
+--------------
+Song Name: Cinderella (feat. Ty Dolla $ign)
+Artist: Mac Miller
+Artist: Ty Dolla $ign
+Album Name: The Divine Feminine
+Preview URL: https://p.scdn.co/mp3-preview/1f797d8ec6a6ca7dd84d9a6d496bc92748d24557?cid=null
+--------------
+Song Name: The Sign
+Artist: Ace of Base
+Album Name: The Sign (US Album) [Remastered]
+Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=null
+--------------
+Song Name: Shell Shocked (feat. Kill The Noise & Madsonik) - From "Teenage Mutant Ninja Turtles"
+Artist: Juicy J
+Artist: Wiz Khalifa
+Artist: Ty Dolla $ign
+Artist: Madsonik
+Artist: Kill The Noise
+Album Name: Shell Shocked (feat. Kill The Noise & Madsonik) [From "Teenage Mutant Ninja Turtles"]
+Preview URL: https://p.scdn.co/mp3-preview/26fa73b8c2e9ce91efb44fad48c5a38b2e48dc11?cid=null
+--------------
+Song Name: Blessings
+Artist: Chance The Rapper
+Artist: Ty Dolla $ign
+Artist: Anderson .Paak
+Artist: BJ The Chicago Kid
+Artist: Raury
+Album Name: Coloring Book
+Preview URL: https://p.scdn.co/mp3-preview/ca5047ad569d9860b850475f22cb482c8240e7a2?cid=null
+--------------
+Song Name: Hanging Up My Jersey
+Artist: Ty Dolla $ign
+Artist: PnB Rock
+Album Name: GTTM: Goin Thru the Motions
+Preview URL: https://p.scdn.co/mp3-preview/d9ded55ec6e478c9b68eb206e9f5714440c2c693?cid=null
+--------------
+Song Name: In My Foreign (feat. Ty Dolla $ign, Lil Yachty, Nicky Jam & French Montana)
+Artist: The Americanos
+Artist: Nicky Jam
+Artist: Lil Yachty
+Artist: Ty Dolla $ign
+Artist: French Montana
+Album Name: In My Foreign (feat. Ty Dolla $ign, Lil Yachty, Nicky Jam & French Montana)
+Preview URL: https://p.scdn.co/mp3-preview/debdbfec32744181f24c2c57b567db36d987cc9f?cid=null
+--------------
+Song Name: Warning Sign
+Artist: Coldplay
+Album Name: A Rush Of Blood To The Head
+Preview URL: https://p.scdn.co/mp3-preview/aa7d87a8e2ac9aa7261c7640548a18930572043d?cid=null
+--------------
+Song Name: Blasé (feat. Future & Rae Sremmurd) - Louis The Child Remix
+Artist: Ty Dolla $ign
+Artist: Future
+Artist: Rae Sremmurd
+Artist: Louis The Child
+Album Name: Blasé (feat. Future & Rae Sremmurd) [Remixes]
+Preview URL: https://p.scdn.co/mp3-preview/e5c3f24261752767005a5d10ae251f3a52e84319?cid=null
+--------------
+Song Name: Nothin' Like Me
+Artist: Chris Brown
+Artist: Tyga
+Artist: Ty Dolla $ign
+Album Name: Fan of A Fan The Album (Deluxe Version)
+Preview URL: https://p.scdn.co/mp3-preview/c8e72c1a12ced753952455cb2145237a0d2a40cb?cid=null
+--------------
+Song Name: Or Nah (feat. Wiz Khalifa) - Live from The Village, Los Angeles
+Artist: Ty Dolla $ign
+Artist: Wiz Khalifa
+Album Name: Spotify Session
+Preview URL: https://p.scdn.co/mp3-preview/4d7e630288b2ba0edd9678c2c186dcc7db3cfb73?cid=null
+--------------
+Song Name: The Sign
+Artist: Ace of Base
+Album Name: Greatest Hits
+Preview URL: https://p.scdn.co/mp3-preview/5ca0168d6b58e0f993b2b741af90ecc7c9b16893?cid=null
+--------------
+Song Name: Boom
+Artist: Major Lazer
+Artist: Moti
+Artist: Ty Dolla $ign
+Artist: WizKid
+Artist: Kranium
+Album Name: Peace Is The Mission (Extended)
+Preview URL: https://p.scdn.co/mp3-preview/c75296ad381abcd4ad558189e588dd698e3c0eb5?cid=null
+--------------
+Song Name: Saved - Live from The Village, Los Angeles
+Artist: Ty Dolla $ign
+Album Name: Spotify Session
+Preview URL: https://p.scdn.co/mp3-preview/fd45b9a85d625d9a00375f7219a440991e6323e9?cid=null
+--------------
+Song Name: Sucker For Pain (with Logic & Ty Dolla $ign feat. X Ambassadors)
+Artist: Lil Wayne
+Artist: Wiz Khalifa
+Artist: Imagine Dragons
+Artist: Logic
+Artist: Ty Dolla $ign
+Artist: X Ambassadors
+Album Name: Suicide Squad: The Album
+Preview URL: https://p.scdn.co/mp3-preview/7e9499c10ce44e652219da0c626e65811b495b3c?cid=null
+--------------
+Song Name: Born Under A Bad Sign
+Artist: Albert King
+Album Name: King Of The Blues Guitar
+Preview URL: https://p.scdn.co/mp3-preview/d6811e181b5e572d8c3a7b87a50ecc1a32312124?cid=null
+--------------
+Song Name: Bellas Regionals: The Sign/Eternal Flame/Turn The Beat Around
+Artist: The Barden Bellas
+Album Name: Pitch Perfect Soundtrack
+Preview URL: https://p.scdn.co/mp3-preview/755c42adce0ac49733a74301eaa92c4a698cac43?cid=null
+Song Name: Horses In The Stable
+Artist: Ty Dolla $ign
+--------------
+Album Name: Free TC
+Preview URL: https://p.scdn.co/mp3-preview/1461c109906715ebbca4ee45fe4ca7599bc9ea4f?cid=null
 --------------
 spotify-this-song Moon River
 Song Name: Bad Moon Rising
@@ -206,3 +300,23 @@ Artist: Andy Williams
 Album Name: 16 Most Requested Songs
 Preview URL: https://p.scdn.co/mp3-preview/f12d63d1856d4cbe78ad51977066c65615eded4b?cid=null
 --------------
+movie-this Mr+Nobody
+--------------------------------------
+Title: Mr. Nobody
+Year: 2009
+imdbRating: 7.9
+Country: Belgium, Germany, Canada, France
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+=======================================
+movie-this The Godfather
+--------------------------------------
+Title: The Godfather
+Year: 1972
+imdbRating: 9.2
+Country: USA
+Language: English, Italian, Latin
+Plot: The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.
+Actors: Marlon Brando, Al Pacino, James Caan, Richard S. Castellano
+=======================================
