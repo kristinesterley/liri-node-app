@@ -1,3 +1,6 @@
+//Note: I have added a command 'movie-this-omdb' which can be used to search omdb for a movie title
+//The command 'movie-this' makes a call to TMDb.
+
 
 var command = process.argv[2];
 var title = process.argv[3];
@@ -7,6 +10,8 @@ var TWITTER_CONSUMER_SECRET;
 var TWITTER_ACCESS_TOKEN_KEY;
 var TWITTER_ACCESS_TOKEN_SECRET;
 
+
+
 var keys = require("./keys.js");
 var Twitter = require('twitter');
 var spotify = require('spotify');
@@ -14,6 +19,15 @@ var request = require('request');
 var fs = require("fs");
 
 var keysList = keys.twitterKeys;
+var TMDB_API_KEY = keys.tmdbKey.api_key;
+
+
+function reformatTitle(searchTerm) {
+  	var term = searchTerm.replace(/ /gi,"+");
+  	return term;
+}
+
+
 
 
 function getTweets() {
@@ -65,6 +79,7 @@ function getSpotify(){
 	if (!title) {
 		title='The Sign';
 	}
+	title = reformatTitle(title);
 
 	fs.appendFile("log.txt", command + " " + title + "\n");	
 
@@ -95,17 +110,18 @@ function getSpotify(){
 }//end getSpotify
 
 
-//Note: Rotten Tomatoes data not returned in the data from OMDB so could not include in the output
-function getMovie(){
+
+function getOmdb(){
 
 	if (!title) {
 		title = 'Mr+Nobody';
 	}
+	title = reformatTitle(title);
 
 	fs.appendFile("log.txt", command + " " + title + "\n");	
 
 	var options = {
-		url: "https://www.omdbapi.com/?t=" + title + "&y=&plot=short&r=json",
+		url: "https://www.omdbapi.com/?t=" + title + "&y=&plot=short&tomatoes=true&r=json",
 		headers: {
 			'User-Agent': 'request'
 		}
@@ -131,6 +147,10 @@ function getMovie(){
 	    	fs.appendFile("log.txt", "Plot: " + movie.Plot+ "\n");
 	    	console.log("Actors: " + movie.Actors);
 	    	fs.appendFile("log.txt", "Actors: " + movie.Actors+ "\n");
+	    	console.log("Tomato Rating: " + movie.tomatoRating);
+	    	fs.appendFile("log.txt", "Tomato Rating: " + movie.tomatoRating+ "\n");
+	    	console.log("Tomato URL: " + movie.tomatoURL);
+	    	fs.appendFile("log.txt", "Tomato URL: " + movie.tomatoURL+ "\n");
 	    	console.log("===========================================\n");
 	    	fs.appendFile("log.txt", "=======================================\n");
 
@@ -141,6 +161,61 @@ function getMovie(){
 	});//end request
 }//end getMovie
 
+function getTMDb(){
+	if (!title) {
+		title = 'Mr+Nobody';
+	}
+	title = reformatTitle(title);
+
+	fs.appendFile("log.txt", command + " " + title + "\n");	
+
+	var queryUrl = "https://api.themoviedb.org/3/search/movie?api_key=" + TMDB_API_KEY+ "&query="+title;
+		
+	request(queryUrl, function (error, response, body) {
+	  	if (!error && response.statusCode == 200) {
+	  		var movies = JSON.parse(body);
+	  		// console.log(movies);
+	  		var movieArr = movies.results;
+	  		for (i=0;i<movieArr.length;i++){
+	  			var movieId = movieArr[i].id;
+	  			var query2URL = "https://api.themoviedb.org/3/movie/"+ movieId + "?api_key=" + TMDB_API_KEY;
+	  				request(query2URL, function (err, resp, result) {
+						var film = JSON.parse(result);
+						if (!err && response.statusCode == 200) {
+
+		  					console.log("===========================================\n");
+					    	fs.appendFile("log.txt", "--------------------------------------\n");
+					    	console.log("Title: " + film.title);
+					    	fs.appendFile("log.txt", "Title: " + film.title + "\n");
+					    	console.log("Release Date: " + film.release_date);
+					    	fs.appendFile("log.txt", "Release Date: " + film.release_date + "\n");
+					    	for (j=0;j<film.production_countries.length;j++){
+					    		console.log("Country: " + film.production_countries[j].name);
+					    		fs.appendFile("log.txt", "Country: " + film.production_countries[j].name + "\n");
+					    	}	
+					    	console.log("Language: " + film.original_language);
+					    	fs.appendFile("log.txt", "Language: " + film.original_language + "\n");
+					    	console.log("Plot: " + film.overview);
+					    	fs.appendFile("log.txt", "Plot: " + film.overview + "\n");
+					    	console.log("===========================================\n");
+					    	fs.appendFile("log.txt", "=======================================\n");
+						}//end if
+	  					else{
+	  						console.log(resp.statusCode);
+	  					}
+	  				});//end request query2	
+	  		}//end for
+
+
+
+
+	  	}
+	  	else{
+	  		console.log(response.statusCode);
+	  	}
+	});//end request
+}
+
 
 function handleRequest() {
 	switch (command) {
@@ -150,8 +225,11 @@ function handleRequest() {
 		case 'spotify-this-song':
 			getSpotify(); 
 			break;
+		case 'movie-this-omdb':
+			getOmdb();
+			break;
 		case 'movie-this':
-			getMovie();
+			getTMDb();
 			break;
 		default:
 			console.log("That is not a known command.");	
