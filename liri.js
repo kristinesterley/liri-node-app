@@ -1,5 +1,7 @@
 //Note: I have added a command 'movie-this-omdb' which can be used to search omdb for a movie title
-//The command 'movie-this' makes a call to TMDb.
+//The command 'movie-this' makes calls to TMDb.
+
+//All display code outputs to the both console and to the log.txt file
 
 
 var command = process.argv[2];
@@ -18,9 +20,13 @@ var spotify = require('spotify');
 var request = require('request');
 var fs = require("fs");
 
+// read the api keys from the keys.js file and save them off into variables
+
 var keysList = keys.twitterKeys;
 var TMDB_API_KEY = keys.tmdbKey.api_key;
 
+
+//format query strings - while not necessary for successful queries, documentation specifies this reformat
 
 function reformatTitle(searchTerm) {
   	var term = searchTerm.replace(/ /gi,"+");
@@ -28,7 +34,7 @@ function reformatTitle(searchTerm) {
 }
 
 
-
+// make a call to Twitter to retrieve and then display my 20 most recent tweets
 
 function getTweets() {
 
@@ -74,10 +80,13 @@ function getTweets() {
 	});//end client.get
 }//end getTweets
 
+
+//Make a call to Spotify to search for songs with user specified title. If the user does not specify a title,
+// the search defaults to specify The Sign by Ace of Base
 function getSpotify(){
 
 	if (!title) {
-		title='The Sign';
+		title='The Sign Ace of Base';
 	}
 	title = reformatTitle(title);
 
@@ -110,6 +119,8 @@ function getSpotify(){
 }//end getSpotify
 
 
+// Search omdb and display results. Service recently unreliable - a return code of 503 means the sercvice is
+// unavailable
 
 function getOmdb(){
 
@@ -156,10 +167,13 @@ function getOmdb(){
 
 	  	}
 	  	else{
-	  		console.log(response.statusCode);
+	  		console.log("Error Code: " + response.statusCode);
 	  	}
 	});//end request
 }//end getMovie
+
+
+//search tmdb for user specified movie title. If no title specified, search for the movie title "Mr Nobody"
 
 function getTMDb(){
 	if (!title) {
@@ -206,15 +220,14 @@ function getTMDb(){
 	  				});//end request query2	
 	  		}//end for
 
-
-
-
 	  	}
 	  	else{
 	  		console.log(response.statusCode);
 	  	}
 	});//end request
 }
+
+//code calls functions based on the command that the user has specified
 
 
 function handleRequest() {
@@ -237,6 +250,10 @@ function handleRequest() {
 
 }// end handleRequest
 
+// handleFileRequest is executed if the user specifies 'do-what-it-says'. In this case, the code reads a file,
+// random.txt and parses out the command and a speicified title (if given)
+// After a successful file read, the code executes handleRequest
+
 function handleFileRequest() {
 	fs.readFile("random.txt", "utf8",function(err, data){
 		if (err){
@@ -255,6 +272,9 @@ function handleFileRequest() {
 }
 
 //begin execution here
+// if the user has specified 'do-what-it-says', call the function to handle the request by first reading
+// the file containing the command and title
+// if the user has specified any other command, process the request.
 
 if (command === "do-what-it-says"){
 	fs.appendFile("log.txt", command + "\n");	
